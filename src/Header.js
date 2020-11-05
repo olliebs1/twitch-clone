@@ -14,11 +14,16 @@ const Header = () => {
                 <h2>Music</h2>
                 <i class="fas fa-ellipsis-h"></i>
             </div>
+
             <div className="header_center">
-
+                <input type="text" placeholder="Search" />
+                <div className="header_centerLogoContainer">
+                    <i class="fas fa-search"></i>
+                </div>
+                
             </div>
-            <div className="header_right">
 
+            <div className="header_right">
             </div>
         </div>
     )
