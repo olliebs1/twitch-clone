@@ -3,7 +3,7 @@ import './Channel.css'
 
 const Channel = ({ avatar, name, followers }) => {
     return (
-        <div className='channel'>s
+        <div className='channel'>
             <div className='channel_details'>
                 <img src={avatar} alt='avatar' />
                 <p>{name}</p>
