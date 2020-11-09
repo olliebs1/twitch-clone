@@ -67,3 +67,27 @@
     flex: 1;
     justify-content: flex-end;
 }
+
+.header_rightContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_rightContainer > i, .header_rightContainer > div {
+    margin: 20px;
+}
+
+.header_rightBits {
+    display: flex;
+    align-items: center;
+    background-color: #4a4a4c;
+    height: 56px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+
+.header_right > i {
+    margin-right: 5px;
+}
