@@ -1,5 +1,6 @@
 import React from 'react'
 import Profile from './Profile'
+import './Body.css'
 
 const Body = () => {
     return (
