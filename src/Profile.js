@@ -29,6 +29,9 @@ const Profile = () => {
                 <h2>Recent Broadcasts</h2>
                 <div className='profile_recentItems'>
                 <RecentItem url='https://www.youtube.com/watch?v=GwPfGm-BJjg' title={'Random Video'}/>
+                <RecentItem url='https://www.youtube.com/watch?v=XdhNJK4_X6I' title={'Random Video'}/>
+                <RecentItem url='https://www.youtube.com/watch?v=Yhze-aRR6o0' title={'Random Video'}/>
+                <RecentItem url='https://www.youtube.com/watch?v=9eZDBZ5ZxqY' title={'Random Video'}/>
                 </div>
             </div>
         </div>
