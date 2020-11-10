@@ -23,6 +23,13 @@ const Profile = () => {
                 <h2><i className='fas fa-arrow-up'></i></h2>
                 <h2>Chat</h2>
             </div>
+
+            <div className='profile_recent'>
+                <h2>Recent Broadcasts</h2>
+                <div className='profile_recentItems'>
+
+                </div>
+            </div>
         </div>
     )
 }
