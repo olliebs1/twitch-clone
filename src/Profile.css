@@ -1,0 +1,24 @@
+.profile {
+    background-color: #0e0e10;
+}
+
+.profile_top {
+    display: flex;
+    align-items: center;
+}
+
+.profile_topLeft {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.profile_topLeft > img {
+    object-fit: contain;
+    height: 100px;
+    margin: 40px;
+    border: 2px solid #35353a;
+    border-radius: 50%;
+    padding: 3px;
+}
+
