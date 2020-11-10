@@ -11,7 +11,7 @@ const Profile = () => {
                     <h3>100k followers</h3>
                 </div>
             </div>
-            <div>
+            <div className='profile_topRight'>
                 <i className='fas fa-heart graybg'></i>
                 <i className='fas fa-bell graybg'></i>
                 <i className='fas fa-ellipsis-v'></i>

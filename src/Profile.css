@@ -22,3 +22,42 @@
     padding: 3px;
 }
 
+.profile_topRight {
+    font-size: 30px;
+}
+
+.profile_topRight > i {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 40px;
+    text-align: center;
+}
+
+.profile_topRight > .graybg {
+    background-color: #35353a;
+}
+
+.profile_menu {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+
+.profile_menu > h2 {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.profile_menu > h2 > i {
+    transform: rotate(45deg);
+    margin-right: -5px;
+}
+
+.profile_menu > .active {
+    color: #a970ff;
+    border-bottom: 5px solid #a970ff;
+    padding-bottom: 10px;
+}
+ 
