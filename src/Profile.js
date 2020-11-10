@@ -1,5 +1,6 @@
 import React from 'react'
 import './Profile.css'
+import RecentItem from './RecentItem'
 
 const Profile = () => {
     return (
@@ -27,7 +28,7 @@ const Profile = () => {
             <div className='profile_recent'>
                 <h2>Recent Broadcasts</h2>
                 <div className='profile_recentItems'>
-
+                <RecentItem url='https://www.youtube.com/watch?v=GwPfGm-BJjg' title={'Random Video'}/>
                 </div>
             </div>
         </div>
