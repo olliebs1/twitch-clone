@@ -34,6 +34,11 @@ const Profile = () => {
                 <RecentItem url='https://www.youtube.com/watch?v=9eZDBZ5ZxqY' title={'Random Video'}/>
                 </div>
             </div>
+            <div className='profile_categories'>
+                <h2>Programmers recently streamed Categories</h2>
+                <img src='https://static-cdn.jtvnw.net/ttv-boxart/Science%20&%20Technology-285x380.jpg' alt=''/>
+                <h3>Science & Technology</h3>
+            </div>
         </div>
     )
 }
