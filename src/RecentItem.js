@@ -14,7 +14,7 @@ const RecentItem = ({ url, title }) => {
             ></iframe>
 
             <div className='item_details'>
-                <img src='https://static-cdn.jtvnw.net/ttv-boxart/Science%20&%20Technology-285x380.jpg'/>
+                <img src='https://static-cdn.jtvnw.net/ttv-boxart/Science%20&%20Technology-285x380.jpg' alt=''/>
                 <div className='item_detailsText'>
                     <h4>{title}</h4>
                     <p>Programmer</p>
